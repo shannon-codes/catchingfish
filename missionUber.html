@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>PhishNet</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="myCss.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}</script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="index.html">
+    <img src="logo.jpg" alt="logo" style="width:150px;">
+  </a>
+  <h2>Evil Inc</h2>
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="missionTelus.html">Mission 1</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="missionCRA.html">Mission 2</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="missionUber.html">Mission 3</a>
+    </li>
+  </ul>
+</nav>
+
+<div class="container-fluid">
+  <h3>Your Mission 3: Uber App SMSPhishing</h3>
+  <p>For your third task you will be posing as a Uber employee with a premium rate number reply back number where users will be charged.</p>
+  <p>1. Send this text message. </p>
+  <img src="uberMessage.png" width="250px" height="400px">
+  <div class="test">
+  <div class="form-group w-50">
+    <label for="usr">2. Use a SMS Flooder to Send SMS to Multiple Targets. Enter their mobile numbers:</label>
+    <input type="text" class="form-control" id="usr">
+ 
+    <label for="pwd">3. Number of SMS:</label>
+    <input type="number" class="form-control" id="pwd">
+  </div>
+</div>
+  <button onclick="myFunction()">Start Flooding</button><br><br>
+
+  <div id="myDIV">
+    
+From Uber's website: 
+      <a href="https://help.uber.com/driving-and-delivering/article/keeping-your-uber-account-safe?nodeId=fc65283f-3420-412b-abbd-7335f06e5476">
+        <img src="UberInfo.JPG" width="500px" height="200px">
+        </a>
+      
+    </div>
+  
+  </div>
+
+
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+body{
+  
+  background-color: black;
+}
+
+h2 {
+  color: red;
+}
+h3{
+  color: lightgrey;
+}
+
+#myDIV{
+ 
+display: none;
+}
+.container-fluid{
+  text-align:center;
+  color:red;
+}
+ul{
+  display: inline-block;
+  text-align:left;
+}
+
+input{
+text-align:center;
+}
+
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+
+.test{
+  display: flex;
+ 
+  justify-content: center;
+}
+

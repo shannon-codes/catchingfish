@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>PhishNet</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="myCss.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script>
+function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+   }
+
+   var i = 0;
+var txt = 'I am from the CRA, we conducted a random tax audit. Can you verify your Drivers License, Passport Information'; /* The text */
+var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="index.html">
+    <img src="logo.jpg" alt="logo" style="width:150px;">
+  </a>
+  <h2 style="color:white">Catching Phish:&nbsp;</h2>
+  <!-- Links -->
+<h3> How to phish, so you don't get phished</h3>
+</nav>
+<br><br>
+<div class="container-fluid">
+  
+  
+
+
+  <div class="card" style="width: 18rem;">
+    <img src="parcel.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Your evil assignments</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="missionCRA.html" class="btn btn-primary">Start Scamming!</a>
+    </div>
+  </div>
+
+
+  </div>
+
+
+
+</div>
+
+</body>
+</html>
